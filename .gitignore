@@ -1,0 +1,65 @@
+# =============================
+# pyRevit Add-in Git Ignore
+# =============================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+*.dll
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+
+# Logs and runtime files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE settings
+.vscode/
+.idea/
+*.sln.docstates
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Revit-specific
+*.addin
+*.rfa
+*.rvt
+*.rte
+*.rfa~
+*.rvt~
+
+# pyRevit-specific temporary folders
+*.addin_backup
+*.addin.tmp
+
+# Ignore build/test outputs
+/bin/
+/obj/
+/dist/
+/build/
+
+# Ignore local backups
+*.bak
+*.old
+*.orig
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore user-specific extensions folder backup
+*.extension.zip
+*.extension.old
